@@ -1,0 +1,28 @@
+setwd("D:/STATCAL VERSI ONLINE/FRIEDMAN/publish online")
+
+
+https://www.youtube.com/watch?v=B3Nggr9X4rY
+
+
+shinylive::export(appdir = "myapp", destdir = "docs")
+
+
+
+echo "# friedman" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/statcal/friedman.git
+git push -u origin main
+
+git pull -u origin master
+
+
+
+
+
+
+
+
+
