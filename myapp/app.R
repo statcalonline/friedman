@@ -924,7 +924,7 @@ modul_friedman_test_server <- function(input, output, session) {
     
     
     library(openxlsx)
-    df = read.xlsx("http://statcal.com/STATCAL%20IN%20ARTICLE.xlsx",sheet=1)
+    df = read.xlsx("STATCAL IN ARTICLE.xlsx")
     
     nama = c("Title", "Journal", "Year", "Link", "STATCAL Quote in The Article", "Author")
     
@@ -1059,7 +1059,6 @@ modul_friedman_test_server <- function(input, output, session) {
   output$Friedman_wilcoxon_test <- DT::renderDT({
     print(Friedman_wilcoxon_test() )
   })
-  
   
   
   
