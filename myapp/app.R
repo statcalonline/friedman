@@ -73,6 +73,11 @@ modul_friedman_test_ui <- function(id) {
                
                
                
+               
+               includeHTML("tutorial.html"),
+               
+               
+               
                br()
                
                
